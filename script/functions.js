@@ -104,7 +104,7 @@ result1 = outside(3)(5);
 // 闭包
 var pet = function(name) { //外部函数定义了一个变量"name"
   var getName = function() {
-    //内部函数可以访问 外部函数定义的"name"
+    //内部函数可以访问外部函数定义的"name"
     return name;
   }
   //返回这个内部函数，从而将其暴露在外部函数作用域
